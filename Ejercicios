@@ -1,0 +1,23 @@
+// Variante A: 1. Escribe un programa en C++ que declare dos variables enteras, a y b, y calcule la suma, resta,
+// multiplicación y división de estas variables.Muestra los resultados por pantalla.
+// 2. Escribe un programa en C++ que solicite al usuario un número entero positivo n y muestre la suma de
+// todos los números enteros desde 1 hasta n.
+// 3. Escribe una función en C++ llamada esPrimo que reciba un número entero como parámetro y devuelva
+// true si es primo y false si no lo es.Luego, en el main(), pide al usuario un número y muestra si es primo o no.
+// 4. Escribe un programa en C++ que calcule la raíz cuadrada de un número ingresado por el usuario
+// utilizando la función sqrt() de la biblioteca cmath.Asegúrate de incluir la biblioteca correspondiente.
+#include <iostream>
+using namespace std;
+int operadores;
+
+int main() {
+	int a, b;
+	cout << "Ingrese el valor para a: " << endl; cin >> a;
+		cout << "Ingrese el valor para b: "<< endl; cin >> b;
+		int suma = a + b; cout << "La suma de a y b es: " << suma << endl;
+		int resta = a - b; cout << "La suma de a y b es: " << resta << endl;
+	    int multiplicacion = a * b; cout << "La suma de a y b es: " << multiplicacion << endl;
+		float division = a / b; cout << "La suma de a y b es: " << division << endl;
+
+	return 0;
+}
