@@ -15,9 +15,9 @@ int main() {
 	cout << "Ingrese el valor para a: " << endl; cin >> a;
 		cout << "Ingrese el valor para b: "<< endl; cin >> b;
 		int suma = a + b; cout << "La suma de a y b es: " << suma << endl;
-		int resta = a - b; cout << "La suma de a y b es: " << resta << endl;
-	    int multiplicacion = a * b; cout << "La suma de a y b es: " << multiplicacion << endl;
-		float division = a / b; cout << "La suma de a y b es: " << division << endl;
+		int resta = a - b; cout << "La resta de a y b es: " << resta << endl;
+	    int multiplicacion = a * b; cout << "La multiplicación de a y b es: " << multiplicacion << endl;
+		float division = a / b; cout << "La división de a y b es: " << division << endl;
 
 	return 0;
 }
